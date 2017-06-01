@@ -1,0 +1,15 @@
+https://www.corelan.be
+
+<windows memory map>
+	- 4GB of virtual memory
+	
+	0x00000000 - 0x7fffffff: user
+	0x80000000 - 0xffffffff: kernel
+</windows memory map>
+
+<linux memory map>
+	- 4GB of virtual memory
+	
+	0x00000000 - 0xbfffffff: user
+	0xc0000000 - 0xffffffff: kernel
+</linux memory map>
